@@ -1,7 +1,7 @@
 function createTable() {
     //Write your code here
 	const table = document.querySelector("#myTable")
-	let rows = Number(prompt("Input Number of rows"))
+	let rows = Number(prompt("Input number of rows"))
 		if(isNaN(rows)){
 			return;
 		}
@@ -9,7 +9,7 @@ function createTable() {
 		alert("Enter valid Number")
 		return
 	}
-	let cols = Number(prompt("Input Number of columns"))
+	let cols = Number(prompt("Input number of columns"))
 
 	if(isNaN(cols)){
 		return;
