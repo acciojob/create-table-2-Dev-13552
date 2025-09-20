@@ -2,9 +2,12 @@ function createTable() {
     //Write your code here
 	const table = document.querySelector("#myTable")
 	let rows = Number(prompt("Input Number of rows"))
+		if(isNaN(rows){
+		return;
+	}
 	let cols = Number(prompt("Input Number of columns"))
 
-	if(isNaN(rows) || isNaN(cols)){
+	if(isNaN(cols)){
 		return;
 	}
 
